@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "azuresql2lake",
+				"name": "Copy data1",
 				"type": "Copy",
 				"state": "Inactive",
 				"onInactiveMarkAs": "Succeeded",
@@ -56,11 +56,11 @@
 						}
 					},
 					"dataset": {
-						"referenceName": "Json_dynamic",
+						"referenceName": "jason_dynamic",
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
-							"folder": "CDC",
+							"folder": "cdc",
 							"file": "cdc.json"
 						}
 					},
