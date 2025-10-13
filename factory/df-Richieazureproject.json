@@ -1,0 +1,9 @@
+{
+	"name": "df-Richieazureproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a50416a9-7889-477d-83c8-82826c91dd38",
+		"tenantId": "a22008ec-bc8e-4a45-9d1c-cf5621ed3a45"
+	}
+}
